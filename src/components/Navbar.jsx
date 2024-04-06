@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className="w-full bg-custom-purple py-3 fixed z-10 pb-5">
       <div className="container mx-auto flex justify-between items-center">
-        <img src={Logo} alt="logo" className="pl-4 md:pl-0" />
+        <img src={Logo} alt="logo" className="justify-start sm:pl-10" />
 
         <button
           className="text-white sm:hidden"
