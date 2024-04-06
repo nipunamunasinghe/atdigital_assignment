@@ -19,19 +19,31 @@ const Footer = () => {
         <div class="w-full md:flex gap-[128px]">
           <div className="mt-[60px] md:mt-0">
             <div className="text-xl font-semibold">Our Technologies</div>
-            <div className="font-semibold mt-2">ReactJS</div>
-            <div className="font-semibold mt-2">Gatsby</div>
-            <div className="font-semibold mt-2">NextJS</div>
-            <div className="font-semibold mt-2">NodeJS</div>
+            <div className="font-semibold mt-2 hover:text-black cursor-pointer">
+              ReactJS
+            </div>
+            <div className="font-semibold mt-2 hover:text-black cursor-pointer">
+              Gatsby
+            </div>
+            <div className="font-semibold mt-2 hover:text-black cursor-pointer">
+              NextJS
+            </div>
+            <div className="font-semibold mt-2 hover:text-black cursor-pointer">
+              NodeJS
+            </div>
           </div>
 
           <div className="mt-[60px] md:mt-0">
             <div className="text-xl font-semibold">Our Services</div>
-            <div className="font-semibold mt-2">Social Media Marketing</div>
-            <div className="font-semibold mt-2">
+            <div className="font-semibold mt-2 hover:text-black cursor-pointer">
+              Social Media Marketing
+            </div>
+            <div className="font-semibold mt-2 hover:text-black cursor-pointer">
               Web & Mobile App Development
             </div>
-            <div className="font-semibold mt-2">Data & Analytics</div>
+            <div className="font-semibold mt-2 hover:text-black cursor-pointer">
+              Data & Analytics
+            </div>
           </div>
         </div>
       </div>
@@ -39,9 +51,9 @@ const Footer = () => {
       <hr className="w-[90%]" />
 
       <div className="flex items-center gap-4 mb-4">
-        <div>Privacy Policy</div>
+        <div className="hover:text-black">Privacy Policy</div>
         <div className="w-[1px] bg-white border border-white border-solid h-[17px]" />
-        <div>Terms & Conditions</div>
+        <div className="hover:text-black">Terms & Conditions</div>
       </div>
     </div>
   );
